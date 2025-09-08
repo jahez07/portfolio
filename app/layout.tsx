@@ -7,6 +7,7 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
 import { baseUrl } from './sitemap'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -65,6 +66,7 @@ export default function RootLayout({
           <SpeedInsights />
         </main>
       </body>
+      <GoogleAnalytics gaId='G-RN8Z8BFVM8'/>
     </html>
   )
 }
