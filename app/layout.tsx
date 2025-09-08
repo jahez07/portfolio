@@ -35,8 +35,8 @@ export const metadata: Metadata = {
     },
   },
   icons:{
-    icon: '/public/Jahez.png',
-    
+    icon: '/Jahez.png',
+
   }
 }
 
