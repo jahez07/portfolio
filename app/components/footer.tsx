@@ -27,7 +27,7 @@ export default function Footer() {
             href="https://x.com/JahezJ?t=L37j3v5mK7CxFLKTwbQ5HA&s=08"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7 italic">x</p>
+            <p className="ml-2 h-7">x</p>
           </a>
         </li>
         <li>
@@ -50,6 +50,17 @@ export default function Footer() {
           >
             <ArrowIcon />
             <p className="ml-2 h-7">linkedin</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://drive.google.com/file/d/1fic5I5WrlLIbiKsJC-GAYutmCQj2CVog/view?usp=sharing"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">cv</p>
           </a>
         </li>
       </ul>

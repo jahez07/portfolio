@@ -5,7 +5,7 @@ const navItems = {
     name: 'home',
   },
   '/blog': {
-    name: 'blog',
+    name: 'experience',
   },
   'https://github.com/jahez07': {
     name: 'projects',
