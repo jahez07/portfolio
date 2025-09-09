@@ -18,14 +18,7 @@ export default function Page() {
       <div className="my-8">
         <BlogPosts />
       </div>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        research work
-      </h1>
-      <div className='my-8'>
-        <p className="text-neutral-600 italic">
-          Research publications and ongoing work will appear here soon.
-        </p>
-      </div>
+      
     </section>
   )
 }
