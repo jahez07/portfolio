@@ -2,9 +2,9 @@ export default function NotFound() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        404 - Page Not Found
+        coming soon
       </h1>
-      <p className="mb-4">The page you are looking for does not exist.</p>
+      <p className="mb-4">the page you are looking for will be coming soon</p>
     </section>
   )
 }

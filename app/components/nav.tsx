@@ -10,6 +10,9 @@ const navItems = {
   'https://github.com/jahez07': {
     name: 'projects',
   },
+  '/art':{
+    name: 'art'
+  },
 }
 
 export function Navbar() {
