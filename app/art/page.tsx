@@ -12,7 +12,10 @@ export default function CameraEffect() {
         my art
       </h1>
       <ShinyText
-      text="coming sooon ...."
+      text="coming soon"
+      disabled={false}
+      speed={5}
+      className="custom-class"
       />
     </section>
   );

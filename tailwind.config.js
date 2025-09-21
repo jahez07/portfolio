@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-    theme: {
+export default {
+  theme: {
     extend: {
       keyframes: {
         shine: {
