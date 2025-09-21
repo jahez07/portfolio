@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-
-  theme: {
+    theme: {
     extend: {
       keyframes: {
         shine: {
@@ -11,9 +10,10 @@ module.exports = {
       },
       animation: {
         shine: 'shine 5s linear infinite',
-      }
-    }
+      },
+    },
   },
+  plugins: [],
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
