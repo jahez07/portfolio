@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import ShinyText from "./shineText";
+import SplashCursor from "app/SplashCursor";
 
 export default function CameraEffect() {
   const [active, setActive] = useState("signin");
@@ -11,6 +12,7 @@ export default function CameraEffect() {
         <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         my art
       </h1>
+      <SplashCursor />
       <ShinyText
       text="coming soon"
       disabled={false}
