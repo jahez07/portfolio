@@ -12,7 +12,6 @@ export default function CameraEffect() {
         <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         my art
       </h1>
-      <SplashCursor />
       <ShinyText
       text="coming soon"
       disabled={false}
