@@ -9,7 +9,7 @@ export default function Page() {
         who i am
       </h1>
       <p className="mb-4">
-        {`I follow a Palestinian Jew from the first century, involved in a culture war. He went up against a rigid religious establishment and a pagan empire. The two powers, often at odds, conspired together to eliminate him.
+        {`i follow a palestinian jew from the first century, involved in a culture war. He went up against a rigid religious establishment and a pagan empire. The two powers, often at odds, conspired together to eliminate him.
         His reponse? Not to fight, but to give his life his enimies, and to point to that gift as of proof of his love. Among the last words he spoke before death were these: "Father, forgive them, for they do not know what they are doing."`}
       </p>
 
