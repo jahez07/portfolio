@@ -1,0 +1,55 @@
+---
+title: 'Software Engineer: SureFlow'
+publishedAt: '2024-11-14'
+summary: 'As a SWE @ SureFlow I get to work on solutions that will democratise energy management'
+---
+
+## The Company
+
+At SureFlow, we build technology that gives people clarity and control long before damage or waste occurs.
+
+## My Responsibilities
+* Build REST API Services for different Software - Data Services. 
+* Build Machine Learning Models 
+    * Classification Models based on LSTM & CNNs
+    * Forecasting Model using Prophet
+* AI Solutions to solve In House Problems
+    * Task Management
+    * Information Retrieval Generative Solution (On-Going)
+
+## Projects
+
+### Multi-Tenant AI Knowledge Base
+Architected and deployed a zero-data-leakage, multi-tenant RAG platform combining a Next.js frontend with a FastAPI backend and a custom provider-agnostic LLM wrapper. The system utilizes a Git-backed CI/CD pipeline for automated markdown chunking and vector embedding (pgvector), while enforcing strict tenant isolation by mapping Google Workspace OIDC groups to complex "AND-of-ORs" access controls via PostgreSQL Row-Level Security (RLS).
+
+### Real Time Conversations with AI Agents
+Built and deployed a fully self-hosted conversational AI platform using LiveKit, Python, and React — containerized with Docker Compose — integrating real-time STT, LLM, and TTS providers with a WebRTC frontend and SIP telephony bridge to a 3CX PBX, enabling employees to interact with the voice agent via browser or internal phone extension.
+
+### Multi-Agent Sales Intelligence Pipeline
+Designed and built an end-to-end AI pipeline that ingests European news, identifies city-level infrastructure problems, and automatically generates product-matched sales briefs aligned with EU Commission Directives — enabling the sales team to surface actionable leads from thousands of daily news articles.
+
+**System architecture:** 4-agent LangGraph pipeline with FastAPI webhook, Redis Streams queue, Qdrant vector store, and PostgreSQL — handling concurrency, retries, and dead-letter routing.
+
+### AI Agents for Task Management
+Integrated Agentic workflow and MCP servers with an internal employee management system, providing clear results for management teams and increasing accountability and productivity.
+
+### ML Solution for Pipe-type Classification
+Built and trained a custom CNN for classifying 17 Pipe types with processed ADC Capture as input to the model.
+
+### Network of Models Architecture for AOI
+Designing a network of deep learning and computer vision models, AOI for PCB Component Inspection. Solving the data scarcity and variance with Anomaly Detection models and Board Warp with PCB using YOLOv8. Detecting and classifying component defects under 200ms.
+
+### AI Infrastructure
+Deployed a dual NVIDIA GeForce RTX 5090 GPU AI Workstation with thermal efficiency, power distribution, and hardware reliability monitoring system using Grafana. Configured Linux-based environment with GPU drivers and CUDA stack for ML Inference.
+
+### Event Streaming for Real-time ML Inference
+Configured Kafka Topic with Producers and Consumers, MQTT Gateway as the producer with 3 devices, and Data Pipeline, Timescale DB as Consumers.
+
+### Automation & Workflows
+Built an n8n Automation workflow for gathering news from 50 RSS Feeds, extracting and evaluating 1k+ news articles for the marketing team with open-source large language models.
+
+### Fine Tuning Large Language Models
+Fine-tuned Llama-3.2 using UnSloth GRPO policy for evaluating news articles relevant to the company.
+
+## Stacks
+Python, Bash, JS, n8n, NVIDIA CUDA
